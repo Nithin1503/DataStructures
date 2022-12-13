@@ -3,6 +3,7 @@
 int top = -1;
 int stack[CAP];
 int isFull()
+
 {
     if (top == CAP - 1)
     {
